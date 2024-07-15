@@ -1,0 +1,165 @@
+
+p{
+  font-size: large;
+}
+
+  form {
+    background-color: white;
+    width: 364px;
+    height: 469px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+    padding-bottom: 20px;
+    padding: 40px 55px 45px 55px;
+    border-radius: 15px;
+    transition: all .3s;
+    display: flex;
+    justify-content: center;
+ 
+    flex-direction: column;
+    text-align: left;
+    position: absolute;
+    top:40%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+  }
+  
+  
+  label{
+    font-weight: 600;
+  }
+  .forgot-password,
+  .forgot-password a {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 10px;
+    color: #7f7d7d;
+    margin: 0;
+  }
+  
+  .forgot-password a {
+    color: #167bff;
+  }
+
+
+.btn.btn-dark.btn-lg.btn-block {
+  background-color: rgb(46, 125, 177);
+}
+#root {
+background-image: url('background.jpg');
+min-height: 100%; 
+
+background-position: bottom;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+button {
+  margin-bottom: 10px;
+  background-color: rgb(52, 156, 216);
+}
+
+.table {
+  width: 100%;
+ 
+
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #afcce7;
+}
+.html{
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  color: rgb(5, 5, 5);
+  padding: 15px; 
+  border-radius: 5px; 
+}
+
+.Container{
+  margin-left: 160px;
+  margin-top: 140px;
+}
+
+
+.TextBox{
+  display: flex;
+  margin-left: 370px;
+  width: 150px;
+  margin-top: -22px;
+}
+select {
+  width: 300px;
+  height: 35px;
+  margin-block-end: 10px;
+  margin-top: 10px;
+}
+#search-value {
+  margin-top: -22px;
+  height: 34px;
+}
+
+.MainFilter {
+  background-color: #699bb9;
+  border: 1px solid #ccc; 
+  padding: 20px; 
+  border-radius: 8px; 
+  margin-left: 390px;
+  grid-template-columns: repeat(3, auto) 1fr auto auto; 
+  gap: 10px; 
+  align-items: center; 
+  width: 343px;
+  height: 207px;
+  display: inherit;
+}
+
+.MainFilter input,
+.MainFilter select {
+    padding: 9px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+}
+
+.MainFilter button2 {
+  background-color: #154666; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+}
+
+.MainFilter button2:hover {
+  background-color: #29a498;
+}
+
+
+
+#end-date {
+  margin-left: 82px;
+}
+
+
+button3 {
+  background-color: #154666;
+  color: white;
+  border: none;
+  padding: 6px 20px;
+  cursor: pointer;
+  margin-left: 27px;
+  margin-top: -24px;
+}
+
+button3:hover {
+  background-color: #29a498;
+}
